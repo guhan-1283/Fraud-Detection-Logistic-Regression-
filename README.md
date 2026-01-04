@@ -21,6 +21,7 @@ This repository demonstrates a compact end-to-end fraud detection workflow using
 - Location: project root file `AIML Dataset.csv`.
 - Typical columns (update to match your CSV): `transaction_id`, `amount`, `timestamp`, `customer_id`, `merchant_id`, `device_type`, `location`, `label` (0 = legit, 1 = fraud).
 - Tips: inspect with `pandas.read_csv('AIML Dataset.csv').head()` to confirm schema.
+- Link: https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset?resource=download
 
 ## Preprocessing (recommended)
 
@@ -109,4 +110,5 @@ If you want, I can (pick one):
 - generate a `requirements.txt` based on `app.py` imports,
 - open `app.py` and extract the exact runtime steps to add to this README,
 - or add example screenshots / usage examples for the app.
+
 
